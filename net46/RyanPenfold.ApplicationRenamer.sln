@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.ApplicationRenamer.UI.Windows", "RyanPenfold.ApplicationRenamer.UI.Windows\RyanPenfold.ApplicationRenamer.UI.Windows.csproj", "{334033F7-452A-4D24-A151-6863397397FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities", "..\..\RyanPenfold.Utilities\net46\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj", "{6B248F86-CC97-49F6-96F2-9200707544A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.IocContainer", "..\..\RyanPenfold.IocContainer\net46\RyanPenfold.IocContainer\RyanPenfold.IocContainer.csproj", "{EE5B1CA8-4A1E-4A62-BE0D-D37DC026896D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.ApplicationRenamer.Core", "RyanPenfold.ApplicationRenamer.Core\RyanPenfold.ApplicationRenamer.Core.csproj", "{CE385EC7-763C-4AE2-9836-AA3EB5338B9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{45B92068-3AE6-437D-83AB-722084C9D42F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.IocContainer.Tests.Unit", "..\..\RyanPenfold.IocContainer\net46\RyanPenfold.IocContainer.Tests.Unit\RyanPenfold.IocContainer.Tests.Unit.csproj", "{26E18E42-92E9-4339-BADD-2280E5FD4B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Tests.Unit", "..\..\RyanPenfold.Utilities\net46\RyanPenfold.Utilities.Tests.Unit\RyanPenfold.Utilities.Tests.Unit.csproj", "{57BCBA23-28ED-4C53-95C3-D26EAEFC572E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.ApplicationRenamer.Core.Tests.Unit", "RyanPenfold.ApplicationRenamer.Core.Tests.Unit\RyanPenfold.ApplicationRenamer.Core.Tests.Unit.csproj", "{F6EC942B-DE4D-4816-9743-6A4B27D00F0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334033F7-452A-4D24-A151-6863397397FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334033F7-452A-4D24-A151-6863397397FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334033F7-452A-4D24-A151-6863397397FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334033F7-452A-4D24-A151-6863397397FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B248F86-CC97-49F6-96F2-9200707544A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B248F86-CC97-49F6-96F2-9200707544A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B248F86-CC97-49F6-96F2-9200707544A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B248F86-CC97-49F6-96F2-9200707544A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5B1CA8-4A1E-4A62-BE0D-D37DC026896D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5B1CA8-4A1E-4A62-BE0D-D37DC026896D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5B1CA8-4A1E-4A62-BE0D-D37DC026896D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5B1CA8-4A1E-4A62-BE0D-D37DC026896D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE385EC7-763C-4AE2-9836-AA3EB5338B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE385EC7-763C-4AE2-9836-AA3EB5338B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE385EC7-763C-4AE2-9836-AA3EB5338B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE385EC7-763C-4AE2-9836-AA3EB5338B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E18E42-92E9-4339-BADD-2280E5FD4B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E18E42-92E9-4339-BADD-2280E5FD4B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E18E42-92E9-4339-BADD-2280E5FD4B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E18E42-92E9-4339-BADD-2280E5FD4B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BCBA23-28ED-4C53-95C3-D26EAEFC572E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BCBA23-28ED-4C53-95C3-D26EAEFC572E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BCBA23-28ED-4C53-95C3-D26EAEFC572E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BCBA23-28ED-4C53-95C3-D26EAEFC572E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EC942B-DE4D-4816-9743-6A4B27D00F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EC942B-DE4D-4816-9743-6A4B27D00F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EC942B-DE4D-4816-9743-6A4B27D00F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EC942B-DE4D-4816-9743-6A4B27D00F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26E18E42-92E9-4339-BADD-2280E5FD4B19} = {45B92068-3AE6-437D-83AB-722084C9D42F}
+		{57BCBA23-28ED-4C53-95C3-D26EAEFC572E} = {45B92068-3AE6-437D-83AB-722084C9D42F}
+		{F6EC942B-DE4D-4816-9743-6A4B27D00F0C} = {45B92068-3AE6-437D-83AB-722084C9D42F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ryanpenfold.visualstudio.com/
+		SccProjectUniqueName0 = ..\\..\\RyanPenfold.Utilities\\net46\\RyanPenfold.Utilities\\RyanPenfold.Utilities.csproj
+		SccProjectName0 = $/RyanPenfold.Utilities/net46/RyanPenfold.Utilities
+		SccAuxPath0 = https://ryanpenfold.visualstudio.com
+		SccLocalPath0 = ..\\..\\RyanPenfold.Utilities\\net46\\RyanPenfold.Utilities
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\..\\RyanPenfold.IocContainer\\net46\\RyanPenfold.IocContainer\\RyanPenfold.IocContainer.csproj
+		SccProjectName1 = $/RyanPenfold.IocContainer/net46/RyanPenfold.IocContainer
+		SccAuxPath1 = https://ryanpenfold.visualstudio.com
+		SccLocalPath1 = ..\\..\\RyanPenfold.IocContainer\\net46\\RyanPenfold.IocContainer
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\RyanPenfold.IocContainer\\net46\\RyanPenfold.IocContainer.Tests.Unit\\RyanPenfold.IocContainer.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName2 = RyanPenfold.ApplicationRenamer.sln
+		SccProjectName2 = $/RyanPenfold.IocContainer/net46/RyanPenfold.IocContainer.Tests.Unit
+		SccAuxPath2 = https://ryanpenfold.visualstudio.com
+		SccLocalPath2 = ..\\..\\RyanPenfold.IocContainer\\net46\\RyanPenfold.IocContainer.Tests.Unit
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ..\\..\\RyanPenfold.Utilities\\net46\\RyanPenfold.Utilities.Tests.Unit\\RyanPenfold.Utilities.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName3 = RyanPenfold.ApplicationRenamer.sln
+		SccProjectName3 = $/RyanPenfold.Utilities/net46/RyanPenfold.Utilities.Tests.Unit
+		SccAuxPath3 = https://ryanpenfold.visualstudio.com
+		SccLocalPath3 = ..\\..\\RyanPenfold.Utilities\\net46\\RyanPenfold.Utilities.Tests.Unit
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

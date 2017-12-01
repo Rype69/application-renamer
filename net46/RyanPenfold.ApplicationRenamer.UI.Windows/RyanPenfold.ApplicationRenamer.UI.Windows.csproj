@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{334033F7-452A-4D24-A151-6863397397FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RyanPenfold.ApplicationRenamer.UI.Windows</RootNamespace>
+    <AssemblyName>RyanPenfold.ApplicationRenamer.UI.Windows</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\ISerializedDataFile.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\ISettingsFile.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\ISettingsInfo.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\Program.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\SerializedDataFile.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\SettingsFile.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\SettingsInfo.cs" />
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\packages.config" />
+    <None Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\net45\RyanPenfold.ApplicationRenamer.UI.Windows\App.config" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\RyanPenfold.IocContainer\net46\RyanPenfold.IocContainer\RyanPenfold.IocContainer.csproj">
+      <Project>{ee5b1ca8-4a1e-4a62-be0d-d37dc026896d}</Project>
+      <Name>RyanPenfold.IocContainer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\RyanPenfold.Utilities\net46\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj">
+      <Project>{6b248f86-cc97-49f6-96f2-9200707544a4}</Project>
+      <Name>RyanPenfold.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RyanPenfold.ApplicationRenamer.Core\RyanPenfold.ApplicationRenamer.Core.csproj">
+      <Project>{ce385ec7-763c-4ae2-9836-aa3eb5338b9d}</Project>
+      <Name>RyanPenfold.ApplicationRenamer.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
