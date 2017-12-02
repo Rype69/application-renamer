@@ -5,17 +5,17 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.ApplicationRenamer.UI.Windows", "RyanPenfold.ApplicationRenamer.UI.Windows\RyanPenfold.ApplicationRenamer.UI.Windows.csproj", "{334033F7-452A-4D24-A151-6863397397FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities", "..\..\RyanPenfold.Utilities\net45\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj", "{B74CC041-EA6D-4E3E-A311-E812B303CD59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities", "..\..\utilities\net45\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj", "{B74CC041-EA6D-4E3E-A311-E812B303CD59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.IocContainer", "..\..\RyanPenfold.IocContainer\net45\RyanPenfold.IocContainer\RyanPenfold.IocContainer.csproj", "{69A9654E-263C-4175-BADD-51F8E931B939}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.IocContainer", "..\..\ioc-container\net45\RyanPenfold.IocContainer\RyanPenfold.IocContainer.csproj", "{69A9654E-263C-4175-BADD-51F8E931B939}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.ApplicationRenamer.Core", "RyanPenfold.ApplicationRenamer.Core\RyanPenfold.ApplicationRenamer.Core.csproj", "{CE385EC7-763C-4AE2-9836-AA3EB5338B9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{45B92068-3AE6-437D-83AB-722084C9D42F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.IocContainer.Tests.Unit", "..\..\RyanPenfold.IocContainer\net45\RyanPenfold.IocContainer.Tests.Unit\RyanPenfold.IocContainer.Tests.Unit.csproj", "{3DC4564A-A43D-41A5-A267-D5ABF191C1C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.IocContainer.Tests.Unit", "..\..\ioc-container\net45\RyanPenfold.IocContainer.Tests.Unit\RyanPenfold.IocContainer.Tests.Unit.csproj", "{3DC4564A-A43D-41A5-A267-D5ABF191C1C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Tests.Unit", "..\..\RyanPenfold.Utilities\net45\RyanPenfold.Utilities.Tests.Unit\RyanPenfold.Utilities.Tests.Unit.csproj", "{447BB2A0-952A-4AAF-80BA-94CA6E711AA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.Utilities.Tests.Unit", "..\..\utilities\net45\RyanPenfold.Utilities.Tests.Unit\RyanPenfold.Utilities.Tests.Unit.csproj", "{447BB2A0-952A-4AAF-80BA-94CA6E711AA0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.ApplicationRenamer.Core.Tests.Unit", "RyanPenfold.ApplicationRenamer.Core.Tests.Unit\RyanPenfold.ApplicationRenamer.Core.Tests.Unit.csproj", "{F6EC942B-DE4D-4816-9743-6A4B27D00F0C}"
 EndProject

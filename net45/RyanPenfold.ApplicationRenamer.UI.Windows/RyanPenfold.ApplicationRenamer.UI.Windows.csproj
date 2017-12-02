@@ -33,9 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -91,12 +90,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\RyanPenfold.IocContainer\net45\RyanPenfold.IocContainer\RyanPenfold.IocContainer.csproj">
-      <Project>{ee5b1ca8-4a1e-4a62-be0d-d37dc026896d}</Project>
+    <ProjectReference Include="..\..\..\ioc-container\net45\RyanPenfold.IocContainer\RyanPenfold.IocContainer.csproj">
+      <Project>{69a9654e-263c-4175-badd-51f8e931b939}</Project>
       <Name>RyanPenfold.IocContainer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\RyanPenfold.Utilities\net45\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj">
-      <Project>{6b248f86-cc97-49f6-96f2-9200707544a4}</Project>
+    <ProjectReference Include="..\..\..\utilities\net45\RyanPenfold.Utilities\RyanPenfold.Utilities.csproj">
+      <Project>{b74cc041-ea6d-4e3e-a311-e812b303cd59}</Project>
       <Name>RyanPenfold.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="..\RyanPenfold.ApplicationRenamer.Core\RyanPenfold.ApplicationRenamer.Core.csproj">
